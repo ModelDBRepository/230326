@@ -113,3 +113,6 @@ plt.ylabel('Dend [Na+]i (mM)')
 plt.subplot(313)
 plt.plot(res['t'], 10e3 * np.array(res['cai_dend']))
 plt.ylabel('Dend [Ca2+]i (uM)')
+
+plt.savefig('fig.png')
+plt.show()
